@@ -1,0 +1,15 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "src/smartquotes.js"
+      },
+      {
+        "type": "script",
+        "contents": "smartquotes()"
+      }
+    ]
+  },
+  "options": {}
+}
