@@ -1,8 +1,10 @@
 {
-  "name": "smartquotes",
+  "name": "cloudflare-app-smartquotes",
   "version": "1.0.0",
   "author": "Kelly Martin",
-  "contributors": ["Callum Macrae"],
+  "contributors": [
+    "Callum Macrae"
+  ],
   "description": "Smart quotes are smart typography.",
   "homepage": "http://github.com/kellym/smartquotesjs",
   "license": "MIT",
@@ -20,13 +22,12 @@
   "bugs": {
     "url": "https://github.com/kellym/smartquotesjs/issues"
   },
-  "scripts": {
-    "test": "node ./test",
-    "build": "cd src && uglifyjs smartquotes.js -o smartquotes.min.js --source-map smartquotes.min.js.map -c -m --comments '/Copyright/'"
-  },
   "devDependencies": {
     "jsdom": "^3.1.2",
     "tape": "^4.0.0",
     "uglify-js": "^2.4.19"
+  },
+  "dependencies": {
+    "smartquotes": "^2.0.0"
   }
 }
